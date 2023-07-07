@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <title>Sign Up</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="business.css">
+</head>
+<body>
+    <div id = "wrapper" style="background-color:rgb(240, 248, 255)">
+    <header>
+        <h1><span class="effect">Fast Travels & Tours</span></h1>
+    </header>
+    
+    <nav class = "clear" style="text-align: center;">
+    
+        <a href = "1index.html">Home</a> &nbsp;
+        <a href = "login.html">Login</a> &nbsp;
+        <a href = "sign.html">Sign up</a>&nbsp;
+        <a href = "about.html">About us</a>&nbsp;
+    
+    </nav>
+
+
+    <main  style = " background-image:url(images/lg.jpg); background-repeat: no-repeat; background-size: 100%;">
+        <form action="sign.php" method="post" style= "padding: 2em;">
+        
+            <label for="myfName">First Name:</label> <input type="textbox" id="myName" name="fname">
+            <label for="mylName">Last Name:</label> <input type="textbox" id="mylName" name="lname">
+            <label for="myph">Phone number:</label> <input type="textbox" id="myph" name="phone">            
+            <label for="myEmail">Email:</label> <input type="textbox" id="myEmail" name="email">
+            <label for="myPass" >New Password:</label> <input type="textbox" id="myPass" name="pass">
+            <label for="myPassverify" >Re-type Password:</label> <input type="textbox" id="myPassverify" name="passver">
+            <br/>
+            &emsp;&emsp;&emsp;
+            <button onclick="myFunction()" type="submit" id="mySubmit">Submit</button>
+        </form>
+
+    </main>
+        <footer>
+            <h3 style = "font-style: italics; text-decoration: underline; color: black " >Contact us</h3>
+            <a href = "mailto:Fasttravels@business.ca">Fasttravels@business.ca</a>
+        </footer> 
+    </div>
+</body>
+</html>

@@ -1,0 +1,282 @@
+body{
+    
+    color: #ffffff;
+    font-family: Verdana;
+   
+}
+
+header{
+    background-color: #11318ab4;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-weight: bold;
+    margin-right: auto; 
+    display:block;
+    padding-top:10px;
+    font-size: 30px;
+    border: bottom 0em;;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+main{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    display: block;
+    margin-left: auto;
+    display:block;
+}
+
+h1{
+    padding-top: 10px;
+    padding-left: 2em;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+    font-family:'Goudy Old Style', Times, serif;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 10px;
+    padding-left: 2em;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+    color:#020503;
+}
+
+nav{
+    
+    font-weight: bold;
+    padding-left: 27%;
+    padding-right: 27%;
+    padding-top:2%;
+    padding-bottom:2%;
+    background-color:#18dddd;
+    font-size: 1.2em;
+    border-top: 0em;
+    text-align: center;
+    align-items: center;
+    
+   
+     
+   
+}
+
+nav a {
+    text-decoration: none ;
+    text-align: center;
+    font-weight: bold;
+    padding: 1em;
+    margin-bottom: 2em;
+    float:none;
+}
+
+nav a:link{
+    color: #020503;
+}
+
+nav a:visited{
+    color: #585e5e;
+}
+
+nav a:hover{
+    color: #A26100;
+    background-color: #9BC1C2;
+    border: 3px inset #333333;
+}
+
+.effect{
+    font-style:italic;
+    font-family: Georgia, "Times new roman", serif;
+}
+
+#wrapper{
+    min-width: 1200px;
+    max-width: 1480px;
+    background-color:#18dddd;
+}
+
+footer{
+    background-color: #cf8feb;
+    font-size: .60em;
+    text-align:center;
+    font-weight: bold;
+    font-style: italic;
+    padding: 1em;
+    display:block;
+}
+
+td{
+    padding: 0px;
+    border-color:#d6960d;
+    text-align:center;
+
+}
+
+table{
+    width: 100%;
+    border: 1px;
+    border-color: #030203;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+    background-color: alternate;    
+}
+
+label{
+    float: left;
+    
+    text-align: left;
+    font-weight: bold;
+    width: 10em;
+    padding-right: 0.5em;
+    color:#110c0c;
+
+}
+
+input, textarea{
+    display: block;
+    margin-bottom: 1em;
+    
+}
+
+form{
+    padding: 5em;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  
+    body{
+        padding: 0;
+        margin: 0; }
+
+    #wrapper{
+        width: 100%;
+        min-width: 0%;
+        margin: 0;
+        padding: 0;
+        }
+
+    header{
+        padding-top: 1px;}
+
+    h1{
+        padding-top: 1em;
+    }
+
+    nav{
+        
+        width:100%;
+        padding-left: 25%;
+        padding-right: 20%;
+    }
+
+    nav a{
+        padding: 0.15em;
+        margin-left: 0em;
+        float: none;
+        width: 30%;
+    }
+
+    main{
+        padding-top: 2.5em;
+        padding-bottom: 2.5em;
+        padding-left: 1em;
+        padding-right: 1em;
+        margin: 0;
+        font-size: 90%;
+        float: clear;
+    }
+
+    h2, h3, p, dl{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    main ul{
+        margin-left: 2em;
+    }
+
+    .floatleft{
+        margin-left: 2em;
+        margin-bottom: 1em;
+    }
+
+    .clear{
+        padding-left: 2em}
+
+    
+}
+
+@media only all and (max-width: 768px) {
+    h1{
+        font-size: 2em;
+        padding-top: 0.25em;
+        padding-left: 1.5em;
+        width: 85%;
+        text-align: center;
+        display:block;
+    }
+
+    #wrapper{
+        width: auto;
+        min-width: 0%;
+        margin: 0;
+        padding: 0;
+        }
+
+    nav{
+        padding-left: 5em;
+        padding-top: 2%;
+        padding-bottom:35%;
+        display:block;
+        }
+
+    nav a{
+        padding: 0.1em;
+        width: 40%;
+        float: left;
+        min-width: 2em;
+        margin-left: 9em;
+        margin-bottom: 0.5em;
+        margin-top: 1em;
+
+    }
+
+    nav a:hover{
+        color: #A26100;
+        background-color: #9BC1C2;
+        border: 0.1px outset #333333;
+    }
+
+    main{
+        padding-top: 0;
+    }
+
+    table{
+        width: 100%;
+        border: 1px;
+        border-color: #030203;
+        border-collapse: collapse;
+        margin-bottom: 1em;
+        background-color: alternate;    
+    }
+    
+
+    footer{
+        padding: 0.5em;
+        margin: 0;
+    }
+
+    .clear{
+        padding-left: 2em;
+        padding-top: 2em;}
+
+}

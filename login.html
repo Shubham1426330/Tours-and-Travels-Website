@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <title>Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="business.css">
+</head>
+<body>
+    <div id = "wrapper" style="background-color:rgb(240, 248, 255)">
+    <header>
+        <h1><span class="effect">Fast Travels & Tours</span></h1>
+    </header>
+    
+    <nav class = "clear" style="text-align: center;">
+    
+        <a href = "1index.html">Home</a> &nbsp;
+        <a href = "login.html">Login</a> &nbsp;
+        <a href = "sign.html">Sign up</a>&nbsp;
+        <a href = "logout.php">Log out</a>&nbsp;
+    
+    </nav>
+
+    
+    <main  style = " background-image:url(images/lg.jpg); background-repeat: no-repeat; background-size: 100%; color:black;">
+
+            <form method = "POST" action="login.php">
+            <label for="myEmail">Email:</label> <input type="text" id="myEmail" name="usremail">
+            <label for="myPass" >Password:</label> <input type="password" id="myPass" name = "usrpass">
+            <button type="submit" id="mySubmit" >Submit</button>
+
+            <p> New customer? Register below:<p>
+            <a style = "color: red" href = "sign.html" >Sign up</a>
+            </form>
+
+            </main>    
+        </div>    
+    </main>
+
+        <footer>
+            <h3 style = "font-style: italics; text-decoration: underline; color: black " >Contact us</h3>
+            <a href = "mailto:Fasttravels@business.ca">Fasttravels@business.ca</a>
+        </footer> 
+    </div>
+</body>
+</html>

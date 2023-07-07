@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <title>Mainpage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="business.css">
+    <style>
+    .container {
+        position: relative;
+        width: 100%;
+      }
+      
+      .image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+      
+      .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      
+      .container:hover .image {
+        opacity: 0.7;
+      }
+      
+      .container:hover .middle {
+        opacity: 1;
+      }
+      
+      .text {
+        color:Black;
+        font-size: 32px;
+        font-weight: bold;
+        padding: 16px 32px;
+      }
+    </style>
+</head>
+<body>
+    <div id = "wrapper" style="background-color:rgb(240, 248, 255)">
+    <header>
+        <h1><span class="effect">Fast Travels & Tours</span></h1>
+    </header>
+    
+    <nav class = "clear" style="text-align:center;">
+        
+        <a href = "1index.html">Home</a> &nbsp;
+        <a href = "login.html">Login</a> &nbsp;
+        <a href = "sign.html">Sign up</a>&nbsp;
+        <a href = "logout.php">Log out</a>&nbsp;
+    
+    </nav>
+    &nbsp;
+
+    <main>
+
+        <h2><span class="effect">Don't be a Bummer! Book a trip for your Family this Summer with us!</span></h2>
+        <h2><span class="effect">Save upto 25% off at your most favourite spots in the world.</span></h2>
+
+        <div class="container">
+            <img src="images/ny.jpg" alt="New YorK" class="image" style="width:100%">
+            <div class="middle">
+              <div class="text">New York - Find a way here, not an excuse.</div>
+            </div>
+          </div>
+
+        <h2><span class="effect">Let us take care of your Holidays</span></h2>
+        <div class="container">
+            <img src="images/dubai.jpg" alt="Dubai" class="image" style="width:100%">
+            <div class="middle">
+              <div class="text">Dubai - Where you're bound to have hundreds of stunning photos.</div>
+            </div>
+          </div>
+        
+        <h2><span class="effect">"Browse the best packages with luxurious stay"</span></h2>
+        <div class="container">
+            <img src="images/paris.jpg" alt="Paris" class="image" style="width:100%">
+            <div class="middle">
+              <div class="text">Paris- Place full of Love!</div>
+            </div>
+          </div>
+        
+        <h2><span class="effect">"Get started now. Don't miss out!"</span></h2>
+        <div class="container">
+            <img src="images/mauritius.jpg" alt="Paris" class="image" style="width:100%">
+            <div class="middle">
+              <div class="text">Mauritius- Why laying in bed when you can lay down on beach?</div>
+            </div>
+          </div>
+        <h2><span class="effect">"Already Obsessed. You can be there too!"</span></h2>
+        
+
+
+    </main>
+        <footer>
+            <h3 style = "font-style: italics; text-decoration: underline; color: black " >Contact us</h3>
+            <a href = "mailto:Fasttravels@business.ca">Fasttravels@business.ca</a>
+        </footer> 
+    </div>>
+</body>
+</html>

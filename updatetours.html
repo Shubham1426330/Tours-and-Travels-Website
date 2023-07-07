@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <title>Sign Up</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="business.css">
+</head>
+<body>
+    <div id = "wrapper" style="background-color:rgb(240, 248, 255)">
+    <header>
+        <h1><span class="effect">Fast Travels & Tours</span></h1>
+    </header>
+    
+    <nav class = "clear" style="text-align: center;">
+    
+        <a href = "1index.html">Home</a> &nbsp;
+        <a href = "login.html">Login</a> &nbsp;
+        <a href = "addtours.html">Add Tours</a>&nbsp;
+        <a href = "logout.php">Log out</a>&nbsp;
+    
+    </nav>
+
+
+    <main  style = " background-image:url(images/lg.jpg); background-repeat: no-repeat; background-size: 100%;">
+        <form action="updatetours.php" method="post" style= "padding: 2em;">
+            <h1>Enter the details you want to update in tours over here:<h1>
+            <label for="place">Location:</label> <input type="textbox" id="place" name="place"><br/>
+            <label for="days">Number of Days:</label> <input type="textbox" id="days" name="days"><br/>
+            <label for="start">Start date of tour:</label> <input type="text" name="start" placeholder="YYYY-MM-DD" title="Enter a date in this format YYYY/MM/DD"/><br/>
+            <label for="end">End date of tour:</label> <input type="text" name="end" placeholder="YYYY-MM-DD"  title="Enter a date in this format YYYY/MM/DD"/><br/>
+            <label for="capacity" >Tour capacity:</label> <input type="textbox" id="capacity" name="capacity"><br/>
+            &emsp;&emsp;
+            <button type="submit" id="mySubmit">Submit</button>
+            <br/>
+            <br/>
+        </form>
+
+
+            
+        
+
+    </main>
+        <footer>
+            <h3 style = "font-style: italics; text-decoration: underline; color: black " >Contact us</h3>
+            <a href = "mailto:Fasttravels@business.ca">Fasttravels@business.ca</a>
+        </footer> 
+    </div>
+</body>
+</html>
